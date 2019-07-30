@@ -54,14 +54,38 @@
 		632F2FD622F0B4000018AF8D /* MaPosition */ = {
 			isa = PBXGroup;
 			children = (
+				632F2FEB22F0B41B0018AF8D /* Model */,
+				632F2FEA22F0B4130018AF8D /* View */,
+				632F2FE922F0B4090018AF8D /* Controller */,
 				632F2FD722F0B4000018AF8D /* AppDelegate.swift */,
-				632F2FD922F0B4000018AF8D /* ViewController.swift */,
-				632F2FDB22F0B4000018AF8D /* Main.storyboard */,
 				632F2FDE22F0B4000018AF8D /* Assets.xcassets */,
-				632F2FE022F0B4000018AF8D /* LaunchScreen.storyboard */,
 				632F2FE322F0B4000018AF8D /* Info.plist */,
 			);
 			path = MaPosition;
+			sourceTree = "<group>";
+		};
+		632F2FE922F0B4090018AF8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				632F2FD922F0B4000018AF8D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		632F2FEA22F0B4130018AF8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				632F2FDB22F0B4000018AF8D /* Main.storyboard */,
+				632F2FE022F0B4000018AF8D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		632F2FEB22F0B41B0018AF8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
